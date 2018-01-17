@@ -38,7 +38,7 @@ if (($email) -and ($token) -and ($orgID)){
     $authorization = "OAuth $token"
     $headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
     $headers.Add("Authorization", $authorization)
-    $user_list = Invoke-RestMethod -Method $statusPageURL -Headers $headers
+    $user_list = Invoke-RestMethod -Method get $statusPageURL -Headers $headers
     ##################################################################################
     ##################################################################################
     

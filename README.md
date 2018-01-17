@@ -15,3 +15,13 @@ statuspage_userdel.ps1 _"xabcd123"_ _"asdcefghijklmnop-1234567890"_ _"existingus
 ## Example 2
 With specified switches the parameters can go in any order, in this example the order stays the same but it is not required.
 statuspage_userdel.ps1 **-orgID** _xabcd123_ **-token** _asdcefghijklmnop-1234567890_ **-email** _existinguser@company.com_ **-slackURL** _"https://hooks.slack.com/services/abcdef/abcdefgh/abcdefghijk"_
+
+# Requirements for Full Functionality
+
+####  StatusPage Owner account's API Token.
+
+####  StatusPage Organization ID
+
+####  Email address of Account to be deleted
+
+####  [Optional] Slack channel with a WebHook application

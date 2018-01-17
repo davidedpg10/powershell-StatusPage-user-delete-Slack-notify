@@ -15,7 +15,7 @@ With no switches the parameters will be taken in the following order: StatusPage
 
 ## Example 2
 With specified switches the parameters can go in any order, in this example the order stays the same but it is not required.
-> **statuspage_userdel.ps1** **-orgID** ``_xabcd123_`` **-token** ``_asdcefghijklmnop-1234567890_`` **-email** ``_existinguser@company.com_`` **-slackURL** ``_https://hooks.slack.com/services/abcdef/abcdefgh/abcdefghijk_``
+> **statuspage_userdel.ps1** **-orgID** ``"xabcd123"`` **-token** ``"asdcefghijklmnop-1234567890"`` **-email** ``"existinguser@company.com"`` **-slackURL** ``"https://hooks.slack.com/services/abcdef/abcdefgh/abcdefghijk"``
 
 # Requirements for Full Functionality
 

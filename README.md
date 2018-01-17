@@ -7,15 +7,15 @@ This script utilizes the StatusPage API to get a list of users, then it will mak
 # Use
 ## Example 1
 With no switches the parameters will be taken in the following order: StatusPage org ID, StatusPage API token, email to be deleted, and optionally the slack webhook URL to send a notification of the outcome, whether it failed or succeeded.
-``statuspage_userdel.ps1 <StatusPage_organization_ID> <StatusPage_Token> <email_address<span>@</span>domain.com> (Optional)<Slack_WebHook> ``
+``statuspage_userdel.ps1 <StatusPage_organization_ID> <StatusPage_Token> <email_address@domain.com> (Optional)<Slack_WebHook> ``
 
 #### Here is an example with mock-values
-**statuspage_userdel.ps1** ``"xabcd123"`` ``"asdcefghijklmnop-1234567890"`` ``"existinguser@company.com"`` ``"https<span>://</span>hooks.slack.com/services/abcdef/abcdefgh/abcdefghijk"``
+**statuspage_userdel.ps1** ``"xabcd123"`` ``"asdcefghijklmnop-1234567890"`` ``"existinguser@company.com"`` ``"https://hooks.slack.com/services/abcdef/abcdefgh/abcdefghijk"``
 
 
 ## Example 2
 With specified switches the parameters can go in any order, in this example the order stays the same but it is not required.
-> **statuspage_userdel.ps1** **-orgID** _xabcd123_ **-token** _asdcefghijklmnop-1234567890_ **-email** _existinguser@company.com_ **-slackURL** _ht<span>tps://</span>hooks.slack.com/services/abcdef/abcdefgh/abcdefghijk_
+> **statuspage_userdel.ps1** **-orgID** ``_xabcd123_`` **-token** ``_asdcefghijklmnop-1234567890_`` **-email** ``_existinguser@company.com_`` **-slackURL** ``_https://hooks.slack.com/services/abcdef/abcdefgh/abcdefghijk_``
 
 # Requirements for Full Functionality
 
